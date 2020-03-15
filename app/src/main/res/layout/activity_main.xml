@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_wei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="重量"
+        app:layout_constraintEnd_toStartOf="@id/textView_wei"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btsend_ascii_cal" />
+
+    <TextView
+        android:id="@+id/textView_wei"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_wei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_wei"
+        app:layout_constraintTop_toTopOf="@id/button_wei" />
+
+    <EditText
+        android:id="@+id/view_sendascii_cal"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="62dp"
+        android:hint="Please input!"
+        android:maxLines="2"
+        app:layout_constraintBottom_toBottomOf="@id/textView_wei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btsend_ascii_cal"
+        app:layout_constraintTop_toTopOf="@id/view_sendascii3" />
+
+    <Button
+        android:id="@+id/btsend_ascii_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="120dp"
+        android:text="校正"
+        app:layout_constraintBaseline_toBaselineOf="@id/view_sendascii_cal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/view_sendascii_cal"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/view_sendascii3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="85dp"
+        android:hint="Please view_sendascii!"
+        android:maxLines="2"
+        app:layout_constraintBottom_toTopOf="@id/textView_wei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btsend_ascii_zero"
+        app:layout_constraintTop_toTopOf="@id/view_recive" />
+
+    <Button
+        android:id="@+id/btsend_ascii_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="清零"
+        app:layout_constraintBaseline_toBaselineOf="@id/view_sendascii3"
+        app:layout_constraintEnd_toStartOf="@id/view_sendascii3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/view_sendhex"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="87dp"
+        android:hint="Please input!"
+        android:maxLines="2"
+        app:layout_constraintBottom_toBottomOf="@id/view_recive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btsend_hex"
+        app:layout_constraintTop_toTopOf="@id/view_sendascii" />
+
+    <Button
+        android:id="@+id/btsend_hex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="发送HEX"
+        app:layout_constraintBaseline_toBaselineOf="@id/view_sendhex"
+        app:layout_constraintEnd_toStartOf="@id/view_sendhex"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/view_sendascii"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:hint="Please input!"
+        android:maxLines="2"
+        app:layout_constraintBottom_toBottomOf="@id/btsend_ascii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btsend_ascii"
+        app:layout_constraintTop_toTopOf="@id/btsend_ascii" />
+
+    <Button
+        android:id="@+id/btsend_ascii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="发送ASCII"
+        app:layout_constraintEnd_toStartOf="@id/view_sendascii"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_recive"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/btrecive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btrecive"
+        app:layout_constraintTop_toTopOf="@id/btrecive" />
+
+    <Button
+        android:id="@+id/btrecive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="接收"
+        app:layout_constraintEnd_toStartOf="@id/view_recive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

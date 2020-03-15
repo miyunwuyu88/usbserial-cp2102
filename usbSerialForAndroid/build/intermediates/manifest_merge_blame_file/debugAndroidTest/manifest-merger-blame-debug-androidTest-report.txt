@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hoho.android.usbserial.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:7:5-9:41
+8        android:minSdkVersion="17"
+8-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:8:9-35
+9        android:targetSdkVersion="28" />
+9-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:11:5-67
+11-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:11:22-64
+12
+13    <instrumentation
+13-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:13:5-18:67
+14        android:name="android.support.test.runner.AndroidJUnitRunner"
+14-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:14:9-70
+15        android:functionalTest="false"
+15-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:15:9-39
+16        android:handleProfiling="false"
+16-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:16:9-40
+17        android:label="Tests for com.hoho.android.usbserial.test"
+17-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:17:9-66
+18        android:targetPackage="com.hoho.android.usbserial.test" />
+18-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:18:9-64
+19
+20    <application android:debuggable="true" >
+20-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:20:5-22:19
+20-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:20:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:21:9-60
+21-->E:\project\android_studio_project\Intelligence_scale\usbserial\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger722039764680442864.xml:21:23-57
+22    </application>
+23
+24</manifest>
